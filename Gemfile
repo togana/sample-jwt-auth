@@ -26,6 +26,9 @@ gem 'puma', '~> 3.7'
 # 認証
 gem 'knock'
 
+# json api用
+gem 'jsonapi-resources'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
